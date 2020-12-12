@@ -1,0 +1,17 @@
+matplotlib
+pandas
+numpy
+tensorly
+ipython
+torch == 1.1.0
+Pillow
+scipy
+jupyterlab
+torchvision == 0.3.0
+torchsummary
+opencv-python
+pytorch-msssim
+tensorboard
+tqdm
+future
+pydub

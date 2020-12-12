@@ -1,0 +1,13 @@
+version: '2.3'
+services:
+  lc:
+    container_name: "kml-lc"
+    build: .
+    image: naokishigehisa/lc
+    volumes: 
+      - ./:/home/genius/lc
+    ports: 
+      - 9876:9876
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    command: jupyter lab --ip=0.0.0.0 --port=9876 --allow-root --no-browser --notebook-dir='/home/genius/lc'
