@@ -14,4 +14,4 @@ pytorch-msssim
 tensorboard
 tqdm
 future
-pydub
+librosa
