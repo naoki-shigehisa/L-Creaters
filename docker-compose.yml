@@ -4,6 +4,7 @@ services:
     container_name: "kml-lc"
     build: .
     image: naokishigehisa/lc
+    runtime: nvidia
     volumes: 
       - ./:/home/genius/lc
     ports: 
