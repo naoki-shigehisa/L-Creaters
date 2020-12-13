@@ -9,6 +9,7 @@ RUN apt-get update -y && apt-get install -y libopencv-dev \
     && rm -rf /var/lib/apt/lists/*
 
 RUN apt update && apt -y upgrade \
+    && apt install -y ffmpeg \
     && apt install -y python3 python3-pip
 
 RUN pip3 install --upgrade pip && \
